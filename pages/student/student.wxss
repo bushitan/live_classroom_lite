@@ -1,0 +1,34 @@
+
+.tab{
+    padding-top:20px; 
+    /* background-color: #fff; */
+    /* padding:10px 0;  */
+}
+/* .painter{
+    position: fixed;
+    width: 100%;
+} */
+
+.painter{
+    padding: 10px 20px;
+}
+
+
+.live{
+    display: flex;
+    justify-content: space-around;
+    margin-top:15px; 
+}
+
+.default{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.to_index{
+    width: 630rpx; 
+    margin: 60rpx;
+    position: fixed;
+    bottom: 30px;
+}

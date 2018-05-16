@@ -1,0 +1,31 @@
+
+<!-- 故事列表 -->
+<template name="title">
+    <view class='title page_bg_green'>
+        <label class='line'>TeamHelper</label>
+        <label catchtap='toCompany'>{{teamName}}</label>
+    </view>
+</template>
+
+
+
+<template name="bg">
+    <image src='../../images/timg.jpg' class='bg'></image>
+</template>
+
+<template name="ppt_list">
+    <block wx:for="{{pptList}}" wx:key="index">
+        <image src="{{item.file_url}}" catchclick="{{click}}" ></image>
+        <!-- <view  class='cover'>
+            <view  class='box'>
+                <view class='title bg_white'> {{item.name}}</view> 
+                <xx-cover-stage list="{{item.list}}" rol="{{index}}"  catchclick="{{click}}" ></xx-cover-stage>
+                <view class='summary'>{{item.description}}</view>
+                <view class='like'>喜欢 1</view>
+            </view>
+        </view> -->
+    </block>
+    <view style='height:30px;'></view>  
+</template>
+
+

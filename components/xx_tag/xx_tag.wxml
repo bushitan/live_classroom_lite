@@ -1,0 +1,27 @@
+ 
+
+<view>
+    
+    <block wx:for="{{list}}" wx:key="index">
+        <!-- <view 
+            class='tag_name  {{ initindex==-1?"tag_green":"" }}' 
+            hover-class='tag_name_click'
+            catchtap='all' 
+            data-index="{{-1}}"
+            wx:if='{{index == 0}}'
+        > 全部 </view> -->
+        <view 
+            class='tag_name {{ initindex==index?"tag_green":"" }}' 
+            hover-class='tag_name_click'
+            bindtap='click'
+            bindlongpress="long"
+            data-index="{{index}}"
+        > {{item}}</view>
+    </block>
+     <view 
+        hidden='{{!showAdd}}'
+        class='tag_name tag_add' 
+        hover-class='tag_name_click'
+        catchtap='add'
+    > 添加标签 </view>
+</view>

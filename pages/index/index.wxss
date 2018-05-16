@@ -1,0 +1,46 @@
+/**index.wxss**/
+page{
+     background-color: #ebebeb; 
+    /* background-color: #000; */
+}
+.tab{
+    /* margin-top:20px;  */
+    padding-top:25px; 
+    /* background-color: #fff; */
+}
+.preview{
+     padding-left:15px;  
+}
+
+.member{
+
+}
+.member image{
+    width: 750rpx;
+}
+.member button{
+    margin: 0 30px 
+}
+
+.to_index{
+    width: 630rpx; 
+    margin: 60rpx;
+    position: fixed;
+    bottom: 30px;
+}
+
+
+.tag_space{
+    padding: 15px 15px 0;
+}
+.tag_input{
+    background-color: #ebebeb;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+.tag_select{
+    padding: 70px 15px;
+}
+.tag_select button{
+    margin: 15px;
+}

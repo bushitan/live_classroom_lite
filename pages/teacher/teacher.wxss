@@ -1,0 +1,46 @@
+
+/* .painter{
+    position: fixed;
+    width: 100%;
+} */
+
+.painter{
+    padding: 10px 20px;
+}
+
+.player{
+    position: fixed;
+    top:80px;
+    left:100px;
+}
+
+.pusher{
+    
+    position: fixed;
+    top:260px;
+    left:200px;
+}
+
+
+.default{
+    display: flex;
+    justify-content: space-around;
+}
+
+.live{
+    display: flex;
+    justify-content: space-around;
+    margin-top:15px; 
+}
+
+.mask{
+    background-color: #fff;
+    width:300rpx;
+    height:300rpx;
+}
+.mask button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
