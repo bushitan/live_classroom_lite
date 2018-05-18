@@ -1,0 +1,65 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.98",
+	"appid": "wxd940de1785197471",
+	"projectname": "%E5%B0%8F%E6%95%99%E5%AE%A4",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "room",
+					"pathName": "pages/room/room",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "self",
+					"pathName": "pages/self/self",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "老师丰兄",
+					"pathName": "pages/room/room",
+					"query": "is_student=true&teacher_name=live_ppt_user_19&token=1"
+				},
+				{
+					"id": 3,
+					"name": "老师十二",
+					"pathName": "pages/room/room",
+					"query": "is_student=true&teacher_name=live_ppt_user_20&token=1"
+				}
+			]
+		}
+	}
+}
